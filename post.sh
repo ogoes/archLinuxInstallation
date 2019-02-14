@@ -3,7 +3,7 @@
 echo "[[POST INSTALLATION]]"
 
 echo "[[YAOURT Installation]]"
-sudo pacman -S git
+sudo pacman -S git curl --needed
 cd ~
 git clone https://aur.archlinux.org/package-query.git
 cd package-query/
@@ -49,16 +49,28 @@ yaourt -S sublime-text-dev --noconfirm
 echo "[[Office]]"
 sudo pacman -S libreoffice-fresh --noconfirm
 
+echo "[[NodeJS]]"
+sudo pamcman -S nodejs npm yarn --noconfirm
+yaourt -S nvm --noconfirm
+
+
 echo "[[Shell]]"
 sudo pacman -S zsh --noconfirm
 chsh -s $(which zsh)
+
+echo "[[oh-my-zsh]]"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
+echo "[[spaceship-prompt]]"
+git clone https://github.com/denysdovhan/spaceship-prompt.git "$ZSH_CUSTOM/themes/spaceship-prompt"
+ln -s "$ZSH_CUSTOM/themes/spaceship-prompt/spaceship.zsh-theme" "$ZSH_CUSTOM/themes/spaceship.zsh-theme"
+
 
 echo "[[Cursor]]"
 yaourt -S bibata-cursor-theme --noconfirm
 
 echo "[[GNOME Extensions]]"
 sudo pacman -S gnome-shell-extensions --noconfirm
-
 
 
 echo "[[GNOME configuration]]"
