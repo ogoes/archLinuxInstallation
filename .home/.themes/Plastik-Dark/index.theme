@@ -1,0 +1,12 @@
+[Desktop Entry]
+Type=X-GNOME-Metatheme
+Name=Plastik-Dark
+Comment=simple theme
+Encoding=UTF-8
+
+[X-GNOME-Metatheme]
+GtkTheme=Plastik-Dark
+MetacityTheme=Plastik-Dark
+IconTheme=gnome
+CursorTheme=DMZ-Black
+ButtonLayout=menu:minimize,maximize,close

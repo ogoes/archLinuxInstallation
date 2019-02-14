@@ -59,6 +59,8 @@ gpasswd -a $username storage
 gpasswd -a $username scanner
 gpasswd -a $username power
 
+cp -r ./home/* /home/$username/
+
 echo "[[ROOT PASS]] Senha para o root"
 passwd root
 

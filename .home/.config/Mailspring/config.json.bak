@@ -1,0 +1,178 @@
+{
+  "*": {
+    "env": "production",
+    "core": {
+      "themes": [
+        "ui-light"
+      ],
+      "disabledPackages": [
+        "message-view-on-github",
+        "personal-level-indicators",
+        "phishing-detection",
+        "nylas-private-salesforce",
+        "github-contact-card",
+        "keybase",
+        "composer-markdown",
+        "composer-scheduler",
+        "composer-mail-merge",
+        "send-and-archive",
+        "main-calendar"
+      ],
+      "workspace": {
+        "mode": "split",
+        "hiddenLocations": {
+          "MessageListSidebar": {
+            "id": "MessageListSidebar",
+            "Toolbar": {
+              "id": "MessageListSidebar:Toolbar"
+            }
+          }
+        }
+      },
+      "keymapTemplate": "Gmail",
+      "theme": "ui-dark",
+      "tutorial": {
+        "seen": [
+          "ThreadSearchBar",
+          "ActivityListButton",
+          "ModeToggle"
+        ]
+      }
+    },
+    "identity": {
+      "id": "e6a8d746-06dc-4b76-ba5f-cee1ce745432",
+      "firstName": "Otávio",
+      "lastName": "Goes",
+      "emailAddress": "otaviosilva820@gmail.com",
+      "object": "identity",
+      "createdAt": "2017-12-07T00:28:34.000Z",
+      "stripePlan": "Basic",
+      "stripePlanEffective": "Basic",
+      "stripeCustomerId": "cus_Bu1ILpt6xKX67N",
+      "stripePeriodEnd": "2019-03-07T00:28:33.000Z",
+      "featureUsage": {
+        "snooze": {
+          "quota": 15,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "send-later": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "thread-sharing": {
+          "quota": 3,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "link-tracking": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "open-tracking": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "contact-profiles": {
+          "quota": 3,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        },
+        "send-reminders": {
+          "quota": 5,
+          "period": "weekly",
+          "usedInPeriod": 0,
+          "featureLimitName": "basic-limit"
+        }
+      }
+    },
+    "accounts": [
+      {
+        "id": "e3e8552c",
+        "metadata": [],
+        "name": "Otavio Goes",
+        "provider": "gmail",
+        "emailAddress": "otaviosilva820@gmail.com",
+        "settings": {
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_username": "otaviosilva820@gmail.com",
+          "imap_security": "SSL / TLS",
+          "imap_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_username": "otaviosilva820@gmail.com",
+          "smtp_security": "STARTTLS",
+          "smtp_allow_insecure_ssl": false,
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com"
+        },
+        "label": "otaviosilva820@gmail.com",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      },
+      {
+        "id": "d6dc5fc8",
+        "metadata": [],
+        "name": "Otávio Silva Goes",
+        "provider": "gmail",
+        "emailAddress": "ogoes@alunos.utfpr.edu.br",
+        "settings": {
+          "imap_host": "imap.gmail.com",
+          "imap_port": 993,
+          "imap_username": "ogoes@alunos.utfpr.edu.br",
+          "imap_security": "SSL / TLS",
+          "imap_allow_insecure_ssl": false,
+          "smtp_host": "smtp.gmail.com",
+          "smtp_port": 587,
+          "smtp_username": "ogoes@alunos.utfpr.edu.br",
+          "smtp_security": "STARTTLS",
+          "smtp_allow_insecure_ssl": false,
+          "refresh_client_id": "662287800555-0a5h4ii0e9hsbpq0mqtul7fja0jhf9uf.apps.googleusercontent.com"
+        },
+        "label": "ogoes@alunos.utfpr.edu.br",
+        "autoaddress": {
+          "type": "bcc",
+          "value": ""
+        },
+        "aliases": [],
+        "syncState": "ok",
+        "__cls": "Account"
+      }
+    ],
+    "accountsVersion": 2,
+    "defaultSignatures": {
+      "otaviosilva820@gmail.com": "initial",
+      "ogoes@alunos.utfpr.edu.br": "initial"
+    },
+    "signatures": {
+      "initial": {
+        "title": "Padrão",
+        "id": "initial",
+        "body": "<br></br><br></br>\nAt.te\n<br></br>\n<table cellPadding=\"0\" cellSpacing=\"0\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td style=\"vertical-align:top\"></td>\n\t\t\t<td>\n\t\t\t\t<div>Otávio Goes</div>\n\t\t\t\t<div>Computer Science Student</div>\n\t\t\t\t<div style=\"font-size:0.9em;border-top:1px solid grey;min-width:250px;max-width:300px;margin-top:4px;padding-top:4px\">\n\t\t\t\t\t<div>\n\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t<a style=\"color:grey\" href=\"mailto:&lt;ogoes@alunos.utfpr.edu.br&gt;\">&lt;ogoes@alunos.utfpr.edu.br&gt;\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t\t<a style=\"color:grey\" href=\"mailto:&lt;otaviosilva820@gmail.com&gt;\">&lt;otaviosilva820@gmail.com&gt;\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div></div>\n\t\t\t\t\t\t<div>\n\t\t\t\t\t\t\t<a style=\"color:grey\" href=\"http://about.me/ogoes\">http://about.me/ogoes\n\t\t\t\t\t\t\t</a>\n\t\t\t\t\t\t</div>\n\t\t\t\t\t\t<div></div>\n\t\t\t\t\t</div>\n\t\t\t\t</div>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>",
+        "data": {
+          "title": "Computer Science Student",
+          "name": "Otávio Goes",
+          "email": "<ogoes@alunos.utfpr.edu.br> <otaviosilva820@gmail.com>",
+          "address": "",
+          "facebookURL": "",
+          "tintColor": "grey",
+          "websiteURL": "about.me/ogoes"
+        }
+      }
+    }
+  }
+}
