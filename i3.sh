@@ -1,5 +1,5 @@
 echo "[[i3 installation]]"
-yaourt -S i3-gaps i3blocks compton feh polybar redshift rxvt-unicode rofi i3lock-fancy-git amixer xbacklight playerctl --needed --noconfirm
+yaourt -S ttf-font-awesome i3-gaps i3blocks compton feh polybar redshift rxvt-unicode rofi i3lock-fancy-git amixer xbacklight playerctl --needed --noconfirm
 
 echo "[[Getting Config]]"
 git clone https://github.com/ogoes/DotfilesSucculent.git
