@@ -14,7 +14,7 @@ cp -rf $source/i3/config $file
 
 rm -rf $source/.config/i3
 
-cp -rf $source/{.config,_Xresources} ./
+cp -rf $source/{.config,_Xresources} ~/
 
 rm -rf $source
 
