@@ -10,10 +10,16 @@ if ! ping -c1 8.8.8.8 ; then
 	wifi-menu
 fi
 
+echo "[[Pre-formatação]]"
+read -p "informe o caminho raiz do sistema: " raiz
+read -p "informe o caminho para a partição de boot: " boot
+read -p "informe o caminho para a partição swap: " swap
+read -p "informe o caminho para a pratição home: " home
+
 echo "[[Formatando]] Formatar disco rigido"
-mkfs.ext4 /dev/sda2
-mkfs.fat -F32 -n BOOT /dev/sda1
-mkswap -L  swap /dev/sda4 && swapon /dev/sda4
+mkfs.ext4 ${raiz}
+mkfs.fat -F32 -n BOOT ${boot}
+mkswap -L  swap ${swap} && swapon ${swap}
 
 echo "[[Mounting]] Montando partições"
 mount /dev/sda2 /mnt
