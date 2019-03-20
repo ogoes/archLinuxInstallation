@@ -26,7 +26,7 @@ FallbackNTP=a.ntp.br b.ntp.br c.ntp.br
 hwclock --systohc --utc
 
 echo "[[Hostname]] Configurar hostname"
-read -p "HostName:"; read hostname
+read -p "HostName:" hostname
 echo $hostname > /etc/hostname 
 
 echo "[[hosts]] Configurar Hosts"
@@ -38,13 +38,13 @@ echo "[[DHCP]] Habilitar DHCP"
 systemctl enable dhcpcd
 
 echo "[[GRUB]] Instalar e configurar GRUB"
-pacman -S grub efibootmgr --noconfirm
+pacman -S grub efibootmgr os-prober ntfs-3g --noconfirm
 grub-install --target=x86_64-efi --efi-directory=/boot --bootloader-id=grub
 grub-mkconfig -o /boot/grub/grub.cfg
 
 echo "[[USERS]] Criando usuários"
 echo "%wheel ALL=(ALL) ALL" >> /etc/sudoers
-read -p "username: "; read username
+read -p "username: " username
 useradd $username -m
 gpasswd -a $username wheel
 echo "[[Senha]] Difina a senha para $username"
